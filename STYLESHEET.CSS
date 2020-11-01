@@ -1,0 +1,23 @@
+LI {
+  list-style: none;
+  FLOAT:RIGHT;
+  COLOR: WHITE;
+  padding-left: 20PX;
+  padding-right: 20PX;
+  padding-top: 15PX;
+  padding-bottom: 15PX;
+
+}
+.HEADER {
+  background-color: #835858;
+  HEIGHT:50PX;
+}
+.HEADER-LOGO{
+  FLOAT:LEFT;
+  font-size: 35PX;
+  font-family: 'AVENIR NEXT';
+  font-style: OBLIQUE;
+  COLOR: WHITE;
+  padding-left: 20PX;
+  letter-spacing: 3PX;
+}
