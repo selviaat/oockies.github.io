@@ -1,0 +1,46 @@
+@media (max-width: 1000px) {
+  .MENU{
+    WIDTH:50%;
+    margin-bottom:30px;
+  }
+  .TOP-WRAPPER H1{
+    font-size: 50PX;
+  }
+  .heading h2 {
+    font-size:30px;
+  }
+}
+
+@media (max-width:670px) {
+  .MENU{
+    WIDTH: 100%;
+  }
+  .FOOTER{
+    text-align:center;
+  }
+}
+  .BTN-WRAPPER{
+  width:100%;
+}
+
+.TOP-WRAPPER{
+  text-align: LEFT;
+  padding-top: 130PX;
+}
+
+.TOP-WRAPPER H1{
+  FONT-SIZE: 30PX;
+  LINE-HEIGHT: 36PX;
+}
+
+.TOP-WRAPPER P{
+  FONT-SIZE: 20px;
+  LINE-HEIGHT: 26PX;
+}
+.header-right{
+    display:none;
+  }
+
+.menu-icon{
+      display:block;
+    }
