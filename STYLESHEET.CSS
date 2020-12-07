@@ -1,23 +1,210 @@
-LI {
-  list-style: none;
+*{
+  box-sizing:border-box;
+}
+
+.CLEAR{
+  clear:left;
+}
+.HEADER {
+  background-color: #835858;
+  HEIGHT:50PX;
+  WIDTH:100%;
+  POSITION:FIXED;
+  TOP:0;
+  Z-INDEX:10;
+}
+
+.HEADER-LEFT{
+  FLOAT:LEFT;
+  font-size: 35PX;
+  font-family: 'AVENIR NEXT';
+  COLOR: WHITE;
+  padding-left: 20PX;
+  letter-spacing: 3PX;
+}
+.HEADER-RIGHT {
   FLOAT:RIGHT;
   COLOR: WHITE;
   padding-left: 20PX;
   padding-right: 20PX;
   padding-top: 15PX;
   padding-bottom: 15PX;
+}
+
+.HEADER-RIGHT A{
+  FLOAT: LEFT;
+  line-height:20px;
+  padding-left:25px;
+  padding-right:25px;
+  color:white;
+  display: block;
+  transition: 1;
+  font-size: 13px;
+}
+.HEADER-RIGHT A: HOVER {
+  background-color: WHITE;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+.TOP-WRAPPER{
+  padding: 180px 0 100px 0;
+  background-image: url(https://i.pinimg.com/originals/2d/d7/ca/2dd7cad2042d3f87dc631e72b1e56643.jpg);
+  background-size: cover;
+  color:white;
+  height: 250px;
+  text-align: center;
+}
+
+.CONTAINER{
+  width:1170PX;
+  padding:0 15px;
+  margin: 0 auto;
+}
+.TOP-WRAPPER h1 {
+  font-size: 55px;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+.TOP-WRAPPER p {
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+.BTN-WRAPPER{
+  padding: 8px 24px;
+  color: #734046;
+  display: inline-block;
+  border-radius:10px;
+  font-size: 25px;
+  margin: auto;
+  opacity: 0,8;
+  TEXT-ALIGN:CENTER;
+}
+
+.button{
+  background-color: #a05344;
+  color: white;
+}
+.button: hover{
+  opacity: 0.3;
+}
+
+.MENU-WRAPPER{
+  background-color: #EBDFD2;
+  background-size: COVER;
+  margin-top: 90PX;
+  padding-bottom: 190px;
+}
+
+.HEADING H2{
+  FONT-SIZE:35PX;
+  color: #835858;
+  padding-top: 20px;
+}
+
+.PRODUCT {
+  FLOAT: LEFT;
+  WIDTH: 50%;
+  MARGIN: RIGHT;
+}
+
+.TXT-CONTENTS{
+  color: #835858;
+  font-size: 15px;
+}
+
+.heading h2{
+  font-weight:normal;
+  PADDING-BOTTOM: 50PX;
+  COLOR: #835858;
+  padding-top: 50PX;
+  font-size: 50PX;
+}
+
+.message-wrapper{
+  border-bottom:1px solid #eee;
+  padding-bottom:100px;
+  text-align:center;
+  background-color:  #E7B987;
+  padding-top: 90PX;
+}
+
+.message{
+  padding:15px 40px;
+  background-color:#5fca88;
+  cursor:pointer;
+  box-shadow:0 7px #1a7940;
+}
+
+.message.active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+
+.section-title {
+  border-bottom: 2px solid #835858;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  COLOR: #835858;
+}
+
+
+.contact-form {
+  padding-top: 50px;
+  COLOR:#835858;
+  font-size: 20px;
+  background-color: #EBDFD2;
+  background-size: COVER;
+  HEIGHT: 900PX;
+  margin-top: 0PX;
+  padding-bottom: 100px;
 
 }
-.HEADER {
-  background-color: #835858;
-  HEIGHT:50PX;
+
+input, textarea { width:400px;
+margin-top:10px;
+margin-bottom:30px;
+padding:20px;
+font-size:18px;
+border: 1px solid #EBDFD2;
+COLOR: #835858;
 }
-.HEADER-LOGO{
-  FLOAT:LEFT;
-  font-size: 35PX;
-  font-family: 'AVENIR NEXT';
-  font-style: OBLIQUE;
-  COLOR: WHITE;
-  padding-left: 20PX;
-  letter-spacing: 3PX;
+
+
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+.footer {
+  background-color:#835858 ;
+  color: white;
+  height: 120px;
+  margin-top:1865px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  margin-left: 20px;
+  pADDING-TOP: 20PX;
+}
+
+.footer-list {
+  float: right;
+  margin-right: 20px;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
